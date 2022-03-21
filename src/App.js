@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Login from "./Login";
+import { useState } from "react";
+import DropMenu from "./Dropdown";
+import "./App.css";
+import Seatbookin from "./Seatbookin";
 
 function App() {
+  
+  const [login, setLogin] = useState(true);
+  const className =  login === true ? "bodyLogin" : "bookingBackGround";
+ 
+  const loginHandler = () => {                   
+    setLogin(false);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`dropMenu ${className}`}>
+      <DropMenu></DropMenu>
+
+      <div>
+        {login === true ? (
+          <Login onLogin={loginHandler}></Login>      /*  is loginHandler invoked here ?*/
+        ) : (
+          <Seatbookin ></Seatbookin>
+        )}
+      </div>
     </div>
   );
 }

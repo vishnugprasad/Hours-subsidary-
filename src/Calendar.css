@@ -1,0 +1,13 @@
+.calendarPosition {
+    float: left;
+}
+
+
+.calendarBackgroundColor {
+    background-color: rgb(240, 217, 16, .75);
+
+}
+
+.calendarPosition > div {
+    background-color: rgb(89, 89, 199, .75);
+}
