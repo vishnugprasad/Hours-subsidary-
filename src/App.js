@@ -16,13 +16,13 @@ function App() {
     <div className={`dropMenu ${className}`}>
       <DropMenu></DropMenu>
 
-      <div>
+      
         {login === true ? (
           <Login onLogin={loginHandler}></Login>      /*  is loginHandler invoked here ?*/
         ) : (
           <Seatbookin ></Seatbookin>
         )}
-      </div>
+      
     </div>
   );
 }

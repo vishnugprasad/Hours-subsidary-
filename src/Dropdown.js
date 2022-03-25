@@ -3,10 +3,10 @@ import "./Dropdown.css"
 const DropMenu = () => {
     return (
       <div class="dropdown">
-        <button class="dropbtn">hOur's</button>
+        <button class="dropbtn">HOURS</button>
         <div class="dropdown-content">
-          <a href="#">mission</a>
-          <a href="#">Aim</a>
+          <a href="#">Know The Team</a>
+          <a href="#">Company Policies</a>
           <a href="#">Contact</a>
         </div>
       </div>

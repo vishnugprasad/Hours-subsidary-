@@ -6,7 +6,7 @@ import Calendar from "./Calendar";
 
 const Seatbookin = () => {
   return (
-    <>
+    <div className="bookingContainer">
         <Calendar></Calendar>
       <div className="BookingScreen">
           
@@ -159,7 +159,7 @@ const Seatbookin = () => {
         </div>
       </div>
       
-    </>
+    </div>
   );
 };
 
