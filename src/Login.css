@@ -75,6 +75,12 @@ body {
   padding-left: 15px;
 }
 
+.errorNotification{
+  padding-left: 3rem;
+  color: darkred;
+}
+
+
 .inputSignin {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   height: 2rem;
