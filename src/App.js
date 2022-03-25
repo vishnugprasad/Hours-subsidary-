@@ -13,7 +13,7 @@ function App() {
     setLogin(false);
   };
   return (
-    <div className={`dropMenu ${className}`}>
+    <div className={`dropMenu ${className}`}>  {/* what is the purpose */}
       <DropMenu></DropMenu>
 
       
