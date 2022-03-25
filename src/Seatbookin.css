@@ -13,6 +13,7 @@
   align-items: center;
   background-color: rgb(162, 157, 167);
   padding-bottom: 10px;
+  
 }
 
 
@@ -34,6 +35,6 @@
   gap: 1rem;
   align-self: center;
   justify-content:center;
+  border: 2px solid rgba(221, 142, 38, 0.95);
   border-radius: 2rem;
-  padding-bottom: ;
 }
