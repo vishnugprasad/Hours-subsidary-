@@ -36,7 +36,7 @@
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    padding: 16px 750px;
+    padding: 10px 750px;
     text-decoration: none;
     display: block;
     align-items: center;
@@ -44,7 +44,7 @@
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: rgba(17, 184, 26, 0.75);
+    background-color: #43A047;
 
   }
   
