@@ -3,7 +3,6 @@ import PersonIcon from "@mui/icons-material/Person";
 import IconButton from "@mui/material/IconButton";
 import Calendar from "./Calendar";
 import { useState } from "react";
-import { DateRangePickerView } from "@mui/lab/DateRangePicker/DateRangePickerView";
 
 const Seatbookin = () => {
   const [date, setDate] = useState("")
