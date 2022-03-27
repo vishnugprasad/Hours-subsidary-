@@ -20,7 +20,7 @@ function App() {
         {login === true ? (
           <Login onLogin={loginHandler}></Login>      /*  is loginHandler invoked here ?*/
         ) : (
-          <Seatbookin ></Seatbookin>
+          <Seatbookin> </Seatbookin>
         )}
       
     </div>

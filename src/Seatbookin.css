@@ -16,7 +16,11 @@
   
 }
 
-
+.dateSelection{
+  height:120px;
+  width:18%;
+  background-color: aliceblue;
+}
 
 .seat {
   background-color: rgb(122, 84, 12);
