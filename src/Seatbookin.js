@@ -160,7 +160,11 @@ const Seatbookin = () => {
       </div>
 
       <div className=" containerTwo">
-        <div className="instructionBox">instruction</div>
+        <div className="instructionBox">
+          <div>booked</div>
+          <div>available</div>
+          <div>selected</div>
+        </div>
         <div className="dateSelection">
           {date !== ""
             ? `${dcount[0]} ${dcount[1]} ${dcount[2]} ${dcount[3]}`

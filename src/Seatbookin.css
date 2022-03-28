@@ -51,7 +51,10 @@
 
 .instructionBox {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
   height: 180px;
   width: 263px;
   border: 1px solid rgba(5, 5, 5, 0.95);
