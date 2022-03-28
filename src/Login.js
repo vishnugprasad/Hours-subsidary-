@@ -8,7 +8,7 @@ const Login = (props) => {
   const[errorNot, setErrorNot] = useState(false)  // error notification using ustate//
   return (
     <div className=" loginModule">
-      <div className ="logo"></div>
+      {/* <div className ="logo"></div> */}
       <div className="infoBox">
         <h1 className="text">We are turning into a Hybrid Workforce</h1>
         <h2 className="text2">
