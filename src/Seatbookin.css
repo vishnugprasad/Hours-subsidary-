@@ -90,8 +90,30 @@
 .booked{
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: rebeccapurple;
   border: solid 2px;
   border-radius: 5rem;
   width:65px;
 }
+
+.available{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(96, 100, 96);
+  border: solid 2px;
+  border-radius: 5rem;
+  width:65px;
+
+}
+
+
+.selected{
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  border: solid 2px;
+  border-radius: 5rem;
+  width:65px;
+
+}
+
