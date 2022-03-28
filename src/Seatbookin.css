@@ -59,7 +59,7 @@
   width: 263px;
   border: 1px solid rgba(119, 116, 116, 0.95);
   border-radius: 2rem;
-  background-color: rgb(22, 21, 21, .45);
+  background-color: rgb(22, 21, 21, .40);
 }
 
 
@@ -71,8 +71,8 @@
   font-size: 30px;
   height:88px;
   width:263px;
-  color: white;
-  background-color: rgb(22, 21, 21, .45);
+  color: rgb(150, 136, 35);
+  background-color: rgb(22, 21, 21, .40);
   border: 1px solid rgba(119, 116, 116, 0.95);
   border-radius: 2rem;
 }
@@ -82,6 +82,7 @@
   height: 50px;
   width: 200px;
   background-color: rgba(221, 142, 38, 0.95);
+  border: 1px solid rgba(119, 116, 116, 0.95);
   border-radius: 2rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 21px;
@@ -92,18 +93,19 @@
   display: flex;
   justify-content: center;
   background-color: rebeccapurple;
-  border: solid 2px;
+  border: 1px solid rgba(172, 164, 164, 0.95);
   border-radius: 5rem;
-  width:65px;
+  width:90px;
 }
 
 .available{
   display: flex;
   justify-content: center;
   background-color: rgb(96, 100, 96);
-  border: solid 2px;
+ 
+  border: 1px solid rgba(172, 164, 164, 0.95);
   border-radius: 5rem;
-  width:65px;
+  width:90px;
 
 }
 
@@ -112,9 +114,9 @@
   display: flex;
   justify-content: center;
   background-color: rgb(182, 182, 36);
-  border: solid 2px;
+  border: 1px solid rgba(172, 164, 164, 0.95);
   border-radius: 5rem;
-  width:65px;
+  width:90px;
 
 }
 
