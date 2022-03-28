@@ -161,9 +161,9 @@ const Seatbookin = () => {
 
       <div className=" containerTwo">
         <div className="instructionBox">
-          <div>booked</div>
-          <div>available</div>
-          <div>selected</div>
+          <div className="booked">booked</div>
+          <div className="available">available</div>
+          <div className="selected">selected</div>
         </div>
         <div className="dateSelection">
           {date !== ""

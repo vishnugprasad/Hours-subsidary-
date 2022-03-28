@@ -11,12 +11,13 @@ body {
 }
 
 .loginModule {
+  background-color: white;
   display: flex;
   margin: auto;
   height: 100%;
   padding-top: 10rem;
-  justify-content: space-evenly;
-  /* background-image: url("https://cdn.pixabay.com/photo/2019/08/19/15/56/clock-4416792_1280.png"); */
+  justify-content: space-around;
+  
   background-position: center;
   background-repeat: no-repeat, repeat;
 }
@@ -75,9 +76,16 @@ body {
   padding-left: 15px;
 }
 
+
+.logo{
+  background-color: #43A047;
+  background-image: url("D:\heycoach project\seatbooking\public\Free_Sample_By_Wix.jpg");
+  height: 115px;
+  width: 167px
+}
 .errorNotification{
   padding-left: 3rem;
-  color: darkred;
+  color: rgb(134, 0, 0);
 }
 
 
