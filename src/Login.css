@@ -108,3 +108,10 @@ body {
   display: grid;
   gap: 1rem;
 }
+
+
+.message{
+  display: flexbox;
+  width: 20px;
+  font-size: smaller;
+}

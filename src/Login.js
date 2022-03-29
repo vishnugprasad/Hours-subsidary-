@@ -17,6 +17,9 @@ const Login = (props) => {
         </h2>
         <h2 className="text3">"We Make Flexible Working A Reality"</h2>
       </div>
+      <div className="message">Employeename: admin
+        Password: password
+      </div>
       <div className="loginBox">
         <div className="inputBox">
           <input
