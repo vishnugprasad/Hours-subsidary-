@@ -1,50 +1,40 @@
-/* body {
-  background-color: #1F5768;
-
-} */
-
-
-.bookingContainer{
-  gap:5rem;
+.bookingContainer {
   display: flex;
+  height: 100%;
   justify-content: space-around;
-  justify-items: flex-start;
-  justify-content:flex-start;
   align-items: center;
-  background-color: #1F5768;
+  background-color: #1f5768;
   padding-bottom: 10px;
-  
+}
+.cubicle {
+  height: 73px;
+  display: flex;
 }
 
-
 .seat {
-  background-color: rgb(122, 84, 12);
-  height: 10vh;
-  width: 5vw;
-  
+  background-color: rgba(160, 104, 31, 0.95);
+  height: 7vh;
+  width: 4vw;
+  border-radius: 1rem;
 }
 
 .BookingScreen {
-  height: 40%;
-  width: 30%;
-  background-color: #43A047;
-  margin-top: 1rem;
-  display:grid;
-  grid-template-columns: repeat(4, 6rem);
-  gap: 1rem;
-  align-self: center;
-  justify-content:center;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  background-color: #43a047;
+
   border-radius: 2rem;
 }
 
-
-.containerTwo{
+.containerTwo {
   width: 300px;
   height: 464px;
-  /* border: 2px solid rgba(221, 142, 38, 0.95); */
   border-radius: 3rem;
-  display:grid;
-  background-color: #1F5768;
+  display: grid;
+  background-color: #1f5768;
   align-content: space-around;
   justify-items: center;
 }
@@ -54,68 +44,61 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  
+
   height: 180px;
   width: 263px;
   border: 1px solid rgba(119, 116, 116, 0.95);
   border-radius: 2rem;
-  background-color: rgb(22, 21, 21, .40);
+  background-color: rgb(22, 21, 21, 0.4);
 }
 
-
-.dateSelection{
+.dateSelection {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  height:88px;
-  width:263px;
+  height: 88px;
+  width: 263px;
   color: rgb(150, 136, 35);
-  background-color: rgb(22, 21, 21, .40);
+  background-color: rgb(22, 21, 21, 0.4);
   border: 1px solid rgba(119, 116, 116, 0.95);
   border-radius: 2rem;
 }
 
-
-.bookButton{
+.bookButton {
   height: 50px;
   width: 200px;
   background-color: rgba(221, 142, 38, 0.95);
   border-radius: 2rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 21px;
 }
 
-
-.booked{
+.booked {
   display: flex;
   justify-content: center;
   background-color: rebeccapurple;
   border: 1px solid rgba(172, 164, 164, 0.95);
   border-radius: 5rem;
-  width:90px;
+  width: 90px;
 }
 
-.available{
+.available {
   display: flex;
   justify-content: center;
   background-color: rgb(96, 100, 96);
- 
+
   border: 1px solid rgba(172, 164, 164, 0.95);
   border-radius: 5rem;
-  width:90px;
-
+  width: 90px;
 }
 
-
-.selected{
+.selected {
   display: flex;
   justify-content: center;
   background-color: rgb(182, 182, 36);
   border: 1px solid rgba(172, 164, 164, 0.95);
   border-radius: 5rem;
-  width:90px;
-
+  width: 90px;
 }
-
