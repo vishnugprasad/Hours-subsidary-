@@ -12,10 +12,27 @@
 }
 
 .seat {
-  background-color: rgba(160, 104, 31, 0.95);
+  background-color: rgba(122, 108, 108, 0.95);
   height: 7vh;
   width: 4vw;
   border-radius: 1rem;
+}
+
+.currSelectedSeat {
+  background-color: rgb(182, 182, 36);
+  height: 7vh;
+  width: 4vw;
+  border-radius: 1rem;
+
+}
+
+
+.previousBookedSeat{
+  background-color: rebeccapurple;
+  height: 7vh;
+  width: 4vw;
+  border-radius: 1rem;
+
 }
 
 .BookingScreen {
