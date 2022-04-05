@@ -27,6 +27,7 @@ const Seatbookin = () => {
   const [currSelectedSeat, setCurrSelectedSeat] = useState(null)
   const [selectedSeat, setSelectedSeat] = useState([]);
   const [date, setDate] = useState("");
+  var dcount;
   useEffect(() => {
     // console.log(date);
     const currDate =
@@ -41,8 +42,8 @@ const Seatbookin = () => {
 
       setSelectedSeat(seats);
     } // using local storage, getting an array // //localstorage will store only string, so stringify and on return changing it to array using parse
-  }, [date]);
-  var dcount = date.toString().split(" ");
+  }, [date,dcount]);
+  dcount = date.toString().split(" ");
 
   return (
     <div className="bookingContainer">
