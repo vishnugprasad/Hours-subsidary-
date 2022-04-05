@@ -2,14 +2,14 @@ import "./Seatbookin.css";
 import Calendar from "./Calendar";
 import { useEffect, useState } from "react";
 
-function getInitialState() {
-  const seatArray = [];
-  for (let i = 0; i < 32; i++) {
-    //creating an array of 32 numbers
-    seatArray.push(i);
-  }
-  return seatArray;
-} 
+// function getInitialState() {
+//   const seatArray = [];
+//   for (let i = 0; i < 32; i++) {
+//     //creating an array of 32 numbers
+//     seatArray.push(i);
+//   }
+//   return seatArray;
+// } 
 
 const Seatbookin = () => {
   const getClassName = (value)=> {
