@@ -101,6 +101,17 @@
   width: 90px;
 }
 
+
+.bookedConfirm {
+  height: 50px;
+  width: 200px;
+  background-color: #43a047;
+  border-radius: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 21px;
+}
+
+
 .available {
   display: flex;
   justify-content: center;
